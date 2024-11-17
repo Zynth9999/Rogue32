@@ -61,7 +61,7 @@ Bluetooth speakers, RC drones, Wifi signals, anything around 2.4gHz
 
 
 ## Discord
-You can join my Discord server [here]([https://discord.gg/emensta](https://discord.gg/6vNKuQkG))!
+You can join my Discord server [here]([https://discord.gg/6vNKuQkG]
 
 
 <h1 align="center"> DISCLAIMER </h1>
