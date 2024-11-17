@@ -1,5 +1,6 @@
 <h1 align="center">- Rogue32 Made By Zynth -</h1>
 <div align="center">
+  <img src="rogue32.png" align="center">
   <h3 align="center">A small and compact pentesting tool.</h3>
 </div>
 
