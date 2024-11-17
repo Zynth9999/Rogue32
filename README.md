@@ -57,6 +57,8 @@ Bluetooth speakers, RC drones, Wifi signals, anything around 2.4gHz
 | 26 | | Back Button |
 
 ## FLASHING
+The files are called esp32driverv1.ino.Something
+because i reused the sketch file of my old project
 | OFFSET | FILE |
 |---------------|------------------|
 | 0x1000           | Bootloader            |
