@@ -69,7 +69,7 @@ because i reused the sketch file of my old project
 
 
 ## Discord
-You can join my Discord server [here]([https://discord.gg/6vNKuQkG]
+You can join my Discord server [here](https://discord.gg/6vNKuQkG)
 
 
 <h1 align="center"> DISCLAIMER </h1>
