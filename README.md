@@ -25,6 +25,7 @@ Bluetooth speakers, RC drones, Wifi signals, anything around 2.4gHz
 
 ### **Required:**  
 - ESP32 Dev Module (38 PIN MODULE NEEDED)
+- 1.3 inch ST7789 TFT
 
 ### **Optional:**
 - nRF24L01
