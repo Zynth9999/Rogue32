@@ -23,7 +23,7 @@ Bluetooth speakers, RC drones, Wifi signals, anything around 2.4gHz
 
 ## Hardware - Make your own Rogue32
 
-<img src="20241117_104048-removebg.png">
+<img src="20241117_104048-removebg.png" style="width: 25%; height:25%">
 
 ### **Required:**  
 - ESP32 Dev Module (38 PIN MODULE NEEDED)
