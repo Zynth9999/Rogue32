@@ -56,6 +56,12 @@ Bluetooth speakers, RC drones, Wifi signals, anything around 2.4gHz
 | 25 | | Select Button |
 | 26 | | Back Button |
 
+## FLASHING
+| OFFSET | FILE |
+|---------------|------------------|
+| 0x1000           | Bootloader            |
+| 0x10000           | .ino.bin              |
+| 0x8000            | Partitions          |
 
 
 
