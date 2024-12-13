@@ -216,12 +216,12 @@
 
 // User_Setup.h file adjustments
 #define TFT_CS   5             // Chip select control pin
-#define TFT_RST  4             // Reset pin
+#define TFT_RST  18             // Reset pin
 #define TFT_DC   21             // Data/command control pin
 
 // Enable hardware SPI and set the SPI frequency
 #define TFT_MOSI 23            // SPI MOSI pin (VSPI default)
-#define TFT_SCLK 18            // SPI SCLK pin (VSPI default)
+#define TFT_SCLK 19            // SPI SCLK pin (VSPI default)
 #define SPI_FREQUENCY  40000000 // Set the SPI clock frequency (40MHz)
 
 
