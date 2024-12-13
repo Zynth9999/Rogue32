@@ -11,8 +11,6 @@ The Rogue32 Is a small pentesting tool designed for portability and functionalit
 - Wifi (Sniffers, Spamming, Evil portal)
 - Bluetooth (BLE Advertise spam, Sniffer)
 - nRF24 (BLE Jammer, 2.4 gHz jammer)
-- PN532 ( Not yet added ) (Reading NFC and RFID cards and emulating them) (13.56 mHz)
-- IR (KY-022, KY-005) (Everything IR related, scanning and emulating signals)
 
                                                                     
 JAMMING IS ILLEGAL! JAM AT YOUR OWN RISK!!
@@ -21,44 +19,62 @@ the nRF24, Bluetooth and Wifi functions disrupt:
 Bluetooth speakers, RC drones, Wifi signals, anything around 2.4gHz
 
 ---
+## Functions
 
-## Hardware - Make your own Rogue32
+### WiFi
+- Packet Monitor
+- Evil Portal
+- AP Spam
+
+### Bluetooth/BLE
+- BT Scan
+- BT Device Spam
+- BT Sniffer
+
+### nRF24
+- RF Packet Monitor
+- 2.4 gHz Jammer
+
+### Config
+- GUI Color
+- nRF Power
+- nRF Data rate
+
+If you have any suggestions, join the discord
+---
+
+## Hardware - Make your own Rogue32 V2
 
 <img src="20241117_104048-removebg.png" style="width: 25%; height:25%">
 
 ### **Required:**  
 - ESP32 Dev Module (38 PIN MODULE NEEDED)
 - 1.3 inch ST7789 TFT
-
-### **Optional:**
-- nRF24L01
-- KY-022 + KY-005
-- PN532
-- TP4056 Charging Module
-- 3.7V Battery
+- 4x Tact Switch
 
 
 
+## CONNECTIONS
+| ESP32 Pin | TFT Pin               | Buttons          | nRF24     |
+|---------------|----------------------|------------------|-----------|
+| 5             | CS (Can leave unconnected) |                  | CSN (Chip Select Not Pin) |
+| 18            | RST/RES               |                  |           |
+| 21            | DC                    |                  |           |
+| 23            | MOSI/SDA              |                  | MOSI      |
+| 19            | SCK/SCL               |                  | SCK       |
+| 3v3           | VCC                   |                  | VCC       |
+| GND           | GND                   |                  | GND       |
+| 25            |                       | Up Button        |           |
+| 14            |                       | Down Button      |           |
+| 27            |                       | Select Button    |           |
+| 33            |                       | Back Button      |           |
+| 4             |                       |                  | CE (Chip Enable Pin) |
+| 12            |                       |                  | MISO      |
+| 13            |                       |                  |           |
 
-
-## ESP32 38 PIN + TFT + BUTTONS PINOUT
-| ESP32 Pin | TFT Pin | Buttons |
-|---------------|------------------|--------------------|
-| 5           | CS (Can leave unconnected)             |
-| 4           | RST/RES              |
-| 21            | DC          |
-| 23           | MOSI/SDA          |
-| 18           | SCK/SCL          |
-| 3v3          | VCC          |
-| GND          | GND          |
-| 32 | | Up Button |
-| 33 | | Down Button |
-| 25 | | Select Button |
-| 26 | | Back Button |
 
 ## FLASHING
-The files are called esp32driverv1.ino.Something
-because i reused the sketch file of my old project
+
 | OFFSET | FILE |
 |---------------|------------------|
 | 0x1000           | Bootloader            |
