@@ -52,6 +52,10 @@ If you have any suggestions, join the discord
 - 1.3 inch ST7789 TFT
 - 4x Tact Switch
 
+### **Optional:**
+- Battery
+- nRF24 ( Will throw some errors and restart when using nRF functions )
+  
 
 
 ## CONNECTIONS
