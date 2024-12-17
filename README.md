@@ -89,7 +89,7 @@ If you have any suggestions, join the discord
 
 
 ## Discord
-You can join my Discord server [here](https://discord.gg/6vNKuQkG)
+You can join my Discord server [here](https://discord.gg/bJdgyC7X)
 
 
 <h1 align="center"> DISCLAIMER </h1>
